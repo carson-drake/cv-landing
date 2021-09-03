@@ -1,0 +1,38 @@
+# Basic
+title = "Carson Vineyards"
+baseURL = "https://carsonvineyards.com"
+theme = "vno-hugo"
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[menu]
+
+
+[taxonomies]
+    tag = "tags"
+    
+[params]
+subtitle = "Growing the future today"
+
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+coverColor = "green"
+
+
+
+[params.social]
+phone = '+18052423731‬'
+mail = 'carson@carsonvineyards.com'
+
+[params.ga]
+ID = ""
+host = ""
+
+
+[permalinks]
+posts = "/:year/:month/:title/"
